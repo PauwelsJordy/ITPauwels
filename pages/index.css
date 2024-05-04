@@ -44,6 +44,12 @@ h3 {
   text-align: center;
 }
 
+#glastabel {
+  width: 75%;
+  border: 3px solid blue;
+  text-align: center;
+}
+
 th {
   min-width: 25%;
   font-size: 25px;
@@ -75,5 +81,18 @@ td {
 
 .kleurtd {
   border-bottom: 2px solid black;
+  text-align: center;
+}
+
+.glas {
+  border-right: 1px dashed blue;
+  border-bottom:  1px dotted blue;
+}
+
+.werkwijzeglas {
+  padding: 10px;
+  Border: 1px solid red;
+  border-radius: 25px;
+  width: 80%;
   text-align: center;
 }
