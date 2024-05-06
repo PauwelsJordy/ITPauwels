@@ -50,6 +50,12 @@ h3 {
   text-align: center;
 }
 
+#tastabel {
+  width: 75%;
+  border: 3px solid yellow;
+  text-align: center;
+}
+
 th {
   min-width: 25%;
   font-size: 25px;
@@ -95,4 +101,21 @@ td {
   border-radius: 25px;
   width: 80%;
   text-align: center;
+}
+
+.grtas {
+  width: 10%;
+}
+
+.werkwijzetas {
+  padding: 10px;
+  Border: 1px solid orange;
+  border-radius: 25px;
+  width: 80%;
+  text-align: center;
+}
+
+.tas {
+  border-right: 1px dashed yellow;
+  border-bottom: 1px dotted yellow;
 }
