@@ -56,6 +56,12 @@ h3 {
   text-align: center;
 }
 
+#gadgettabel {
+  width: 75%;
+  border: 3px solid green;
+  text-align: center;
+}
+
 th {
   min-width: 25%;
   font-size: 25px;
@@ -118,4 +124,18 @@ td {
 .tas {
   border-right: 1px dashed yellow;
   border-bottom: 1px dotted yellow;
+}
+
+.sjaal {
+  width: 30%;
+}
+
+.gadget {
+  width: 20%;
+  border-right: 1px dashed green;
+  border-bottom:  1px dotted green;
+}
+
+.key {
+  max-height: 100px;
 }
