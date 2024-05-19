@@ -62,6 +62,12 @@ h3 {
   text-align: center;
 }
 
+#carnavaltabel {
+  width: 75%;
+  border: 3px solid grey;
+  text-align: center;
+}
+
 th {
   min-width: 25%;
   font-size: 25px;
@@ -121,6 +127,14 @@ td {
   text-align: center;
 }
 
+.carnavalwerkwijze {
+  padding: 10px;
+  Border: 1px solid black;
+  border-radius: 25px;
+  width: 80%;
+  text-align: center;
+}
+
 .tas {
   border-right: 1px dashed yellow;
   border-bottom: 1px dotted yellow;
@@ -138,4 +152,10 @@ td {
 
 .key {
   max-height: 100px;
+}
+
+.buttons {
+  width: 33%;
+  border-right: 1px dashed grey;
+  border-bottom:  1px dotted grey;
 }

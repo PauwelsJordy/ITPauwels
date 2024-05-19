@@ -6,7 +6,7 @@
     <title>Pauwels Creations</title>
     <link rel="icon" href="images/logo-trans.ico">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
-        <link rel="stylesheet" href="pages/index.css">
+    <link rel="stylesheet" href="pages/index.css">
   </head>
   <body>
     <center><img id="hoofdding" src="images/hoofdding.png" alt="Pauwels Creations"></center>
@@ -28,7 +28,10 @@
         <button class="nav-link" id="pills-gadgets-tab" data-bs-toggle="pill" data-bs-target="#pills-gadgets" type="button" role="tab" aria-controls="pills-gadgets" aria-selected="false">Gadgets<br>Geschenken</button>
       </li>
       <li class="nav-item" role="presentation">
-        <button class="nav-link" id="pills-carnaval-tab" data-bs-toggle="pill" data-bs-target="#pills-bestickering" type="button" role="tab" aria-controls="pills-carnaval" aria-selected="false">Carnavalsitems</button>
+        <button class="nav-link" id="pills-carnaval-tab" data-bs-toggle="pill" data-bs-target="#pills-carnaval" type="button" role="tab" aria-controls="pills-carnaval" aria-selected="false">Carnavalsitems</button>
+      </li>
+      <li class="nav-item" role="presentation">
+        <button class="nav-link" id="pills-av-tab" data-bs-toggle="pill" data-bs-target="#pills-av" type="button" role="tab" aria-controls="pills-av" aria-selected="false">Algemene Voorwaarden</button>
       </li>
       <li class="nav-item" role="presentation">
         <button class="nav-link" id="pills-contact-tab" data-bs-toggle="pill" data-bs-target="#pills-contact" type="button" role="tab" aria-controls="pills-contact" aria-selected="false">Contact</button>
@@ -164,7 +167,7 @@
                <td class="kleurtd"><h3>Kleurenkaart Petje</h3><img src="images/petkleur.png" alt="Kleurenkaart petje" width="100%" height="auto"></td>
              </tr>
            </table>
-      </div>                                    <!-- kledij -->
+      </div>                                     <!-- kledij KLAAR -->
       <div class="tab-pane fade" id="pills-tassen" role="tabpanel" aria-labelledby="pills-tassen-tab" tabindex="0">
         <h1>Tassen</h1>
         <center><p class="werkwijzetas">
@@ -208,7 +211,7 @@
 
             </tr>
           </table>
-      </div>                                    <!-- tassen -->
+      </div>                                     <!-- tassen KLAAR-->
       <div class="tab-pane fade" id="pills-glazen" role="tabpanel" aria-labelledby="pills-glazen-tab" tabindex="0">
         <h1>Glasgravering</h1>
         <center><p class="werkwijzeglas">
@@ -239,7 +242,7 @@
               <td class="glas"><h3>Glazen flesje 50ml</h3>artnr: 079<br>Prijs: €150.00,-<br><img class="artikelfoto" src="images/flesje.png" alt="Glazen flesje"><br>Minimum afname: 50stuks</td>
             </tr>
           </table>
-      </div>                                    <!-- Glasgravering KLAAR -->
+      </div>                                     <!-- Glasgravering KLAAR -->
       <div class="tab-pane fade" id="pills-gadgets" role="tabpanel" aria-labelledby="pills-gadgets-tab" tabindex="0">
         <h1>Gadgets/Geschenken</h1>
         <center><p class="werkwijzegadget">
@@ -285,21 +288,76 @@
               <td class="gadget"><h3>Fotokristal</h3>artnr: 050 6x8cm<br>Prijs: €15.00,-<br>artnr: 051 10x15cm<br>Prijs: €20.00,-<br>artnr: 052 10.5x14cm<br>Prijs: €20.00,-<br><img class="artikelfoto" src="images/fotokristal.png" alt="Fotokristal"><br>artnr: 053 8x10.5cm<br>Prijs: €12.00,-<br>artnr: 054 9x13cm<br>Prijs: €17.50,-</td>
             </tr>
           </table>
-      </div>                <!-- gadgets -->
-      <div class="tab-pane fade" id="pills-carnaval" role="tabpanel" aria-labelledby="pills-Carnavalsitems-tab" tabindex="0">
+      </div>                 <!-- gadgets -->
+      <div class="tab-pane fade" id="pills-carnaval" role="tabpanel" aria-labelledby="pills-carnaval-tab" tabindex="0">
         <h1>Carnavalsitems</h1>
         <center><p class="carnavalswerkwijze">
-          uitleg
+          Voor de carnavalisten onder ons hebben we ook een mooie variatie aan artikellen. Niet alles staat hier met tekst en foto maar er is wel een lijstje met enkele voorbeelden van de items die je bij ons kan krijgen.
         </p></center>
-        
-      </div>      <!-- carnaval -->
+        <table id="carnavaltabel" align="center">
+          <tr>
+            <td class="buttons"><h3>37mm diameter button</h3>artnr: 055 <br>Een ronde button, afgewerkt met u eigen ontwerp.<br>Minimum afname = 10stuks.<br>Prijs per 100: €95.00,-</td>
+            <td class="buttons"><img class="artikelfoto" src="images/button.png" alt="Ronde button"></td>
+            <td class="buttons"><h3>56mm diameter button</h3>artnr: 056<br>Een ronde button, afgewerkt met u eigen ontwerp.<br>Minimum afname = 10stuks.<br>Prijs per 100: €105.00,-</td>
+          </tr>
+          <tr>
+            <td class="buttons"><img class="artikelfoto" src="images/broche1.png" alt="broche goud"></td>
+            <td class="buttons"><h3>Broche</h3>artnr: 057 Brons ==> €17.50,-<br>artnr: 058 Zilver ==> €17.50,-<br>artnr 059: Goud ==> €17.50,-</td>
+            <td class="buttons"><img class="artikelfoto" src="images/broche2.png" alt="broche goud"></td>
+          </tr>
+          <tr>
+            <td class="buttons" colspan="3"><h3>Pins en Medailles</h3>U kan bij ons ook pins en medailles laten maken. Hiervoor is het wel nodig om een mailtje te sturen of langs te komen om alles te bespreken aangezien hier zoveel specificatie voor nodig zijn. De prijs hangt hier ook af van het aantal en de gekozen specificaties.</td>
+          </tr>
+          <tr>
+            <td class="buttons"><h3>Schouderlap</h3>Het is ook mogelijk om bij ons een schouderlap te laten maken. Deze hebben een standaardvorm en afmetingen. De tekst en/of prent word erop gedrukt waardoor het in meer detail kan dan een geborduurde schouderlap.<br>Een schouderlap is mogelijk in 1 of 2 kleuren. De opdruk is onbeperkt qua kleur.
+                                                                <br>Prijs: €35.00,- per stuk<br><img class="artikelfoto" src="images/schouderlap.png" alt="schouderlap"></td>
+            <td class="buttons"><h3>Lint</h3>Wij maken ook linten zowel voor kandidaat als voor verkozene. De linten kunnen op maat gemaakt worden of gewoon de standaardmaat nemen, dit naar eigen keuze. De kleur van het lint kan u zelf kiezen. De tekst wordt erop gedrukt waardoor er meer mogelijkheden zijn dan met borduren. Denk hierbij maar aan glitter of holografische letters.<br>
+                                                                De prijs voor een lint hangt af van de gekozen opdruk. Al onze linten zijn worden in eigen atelier met de hand gemaakt.<br><img class="artikelfoto" src="images/lint.jpg" alt="Kandidaat lint"></td>
+          </tr>
+        </table>
+      </div>       <!-- carnaval -->
+      <div class="tab-pane fade" id="pills-av" role="tabpanel" aria-labelledby="pills-av-tab" tabindex="0">
+        <p>Artikel 1 <br>
+          De factuur moet betaald worden binnen de 7 kalenderdagen na de factuurdatum. Betalingen na deze termijn brengen van rechtswege en zonder ingebrekestelling interesten op gelijk aan 10%,
+           alsmede, evenzeer van rechtswege en zonder ingebrekestelling, een forfaitaire vergoeding van 10% op het factuurbedrag (met een minimum van € 40) als schadebeding. </p>
+        <p>Artikel 2	<br>
+          Elke bestelling betekent de aanvaarding van onze voorwaarden door de klant.</p>
+        <p>Artikel 3<br>
+          In geval van betwistingen met klanten die geen consument zijn, is uitsluitend de ondernemingsrechtbank  van het arrondissement van Pauwels Creations bevoegd, tenzij de wet dwingend iets
+          anders voorschrijft.<br>
+          Ingeval de klant een consument is, zijn bij procedures die de klant ten opzichte van ons start uitsluitend het vredegerecht van het kanton of de rechtbanken van het arrondissement van
+          Pauwels Creations bevoegd, tenzij de wet dwingend iets anders voorschrijft. Bij procedures die wij opstarten, is naar onze keuze de rechter bevoegd van de woonplaats van de verweerder,
+          de rechter van de plaats waar de overeenkomst ondertekend werd, dan wel de rechter van de plaats van de levering.<p>
+        <p>Artikel 4<br>
+          In de gevallen waarin de Wet van 01.09.2004 betreffende de bescherming van de consumenten bij verkoop van consumptiegoederen geen toepassing vindt, is de volgende regeling van toepassing:
+           door de inontvangstneming of het meenemen van de goederen erkent de koper uitdrukkelijk dat de koopwaar beantwoordt aan zijn bestelling en vrij is van enig zichtbaar gebrek.
+           Andere gebreken moet de koper binnen de 14 kalenderdagen na het ontdekken ervan schriftelijk melden aan de verkoper.
+          Speelt de eerder aangehaalde wet wel, dan moet de klant ons op de hoogte stellen van het gebrek aan overeenstemming binnen de maand vanaf de dag waarop de goederen in ontvangst genomen zijn,
+           dit alles op straffe van verval. </p>
+        <p>Artikel 5 <br>
+          Indien de klant de overeenkomst verbreekt of annuleert of indien de overeenkomst door zijn toedoen geen doorgang kan vinden, is die aan ons een schadevergoeding verschuldigd ten bedrage van
+           50% van het totaalbedrag van de bestelling. Indien de klant een consument is zijn wij aan hem een soortgelijke vergoeding verschuldigd als wij de overeenkomst verbreken, annuleren of
+           indien deze door ons toedoen geen doorgang kan vinden, tenzij door overmacht.</p>
+        <p>Artikel 6	<br>
+          Leverkosten zijn altijd op rekening van de klant tenzij anders overeengekomen in de offerte.<br>
+          Leveringen worden ofwel <br>
+          Gedaan door Bpost aan de tarieven van Bpost, inclusief track & trace.<br>
+          Ofwel<br>
+          Door Pauwels Creations zelf gebracht aan de prijs van €0.25,-/km met een minimum van €10.00,-. <br>
+          Ofwel<br>
+          Wordt het pakket opgehaald door de klant, zonder kosten, doch wel op afspraak.</p>
+        <p>Artikel 7	<br>
+          Alle ontwerpen gemaakt door Pauwels Creations zijn en blijven eigendom van Pauwels Creations beschermd door copyright.</p>
+        <p>Artikel 8	<br>
+          Pauwels Creations kan niet aansprakelijk gesteld worden voor verkeerdelijk gebruik. De instructies worden bij elke bestelling duidelijk meegegeven.</p>
+      </div>  <!--algemene voorwaarden KLAAR -->
       <div class="tab-pane fade" id="pills-contact" role="tabpanel" aria-labelledby="pills-contact-tab" tabindex="0">
         <p><a href="mailto:pauwelscreations@gmail.com">Mail</a></p>
         <p><a href="https://www.facebook.com/groups/pauwelscreations">Facebook</a></p>
-        <p>+32470/81.21.95</p>
-        <p>Stationsstraat 68/6<br>9190 Kemzeke</p>
+        <p><a href="=https://wa.me/+32470872195">Whatsapp</a></p>
+        <p><iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d9998.198149240427!2d4.064871544208835!3d51.2089515805144!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47c3893e3d37ab25%3A0xc481bc29f9271738!2sPauwels%20Creations!5e0!3m2!1snl!2sbe!4v1715325976824!5m2!1snl!2sbe" width="400" height="300" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe></p>
         <p>BE0797.551.816</p>
-      </div>                <!-- contact -->
+      </div>                  <!-- contact -->
     </div>
   </div>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
