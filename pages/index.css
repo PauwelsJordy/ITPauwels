@@ -68,6 +68,18 @@ h3 {
   text-align: center;
 }
 
+#overzichttabel {
+  width: 75%;
+  border: 3px solid white;
+  text-align: center;
+}
+
+#drukwerktabel {
+  width: 75%;
+  border: 3px solid black;
+  text-align: center;
+}
+
 th {
   min-width: 25%;
   font-size: 25px;
@@ -154,8 +166,42 @@ td {
   max-height: 100px;
 }
 
+.lint {
+  max-height: 300px;
+}
+
 .buttons {
   width: 33%;
   border-right: 1px dashed grey;
   border-bottom:  1px dotted grey;
+}
+
+.overzicht {
+  width: 25%;
+  border-right: 1px dashed white;
+  border-bottom:  1px dotted white;
+}
+
+.drukhoofding {
+  border-bottom: 1px dotted black;
+  text-align: center;
+  text-shadow: 4px 4px 4px yellow;
+  font-size: 20px;
+  text-decoration: underline;
+  font-style: italic;
+  font-weight: bold;
+  padding: 10px;
+}
+
+.druk {
+  width: 16%;
+  border-right: 1px dashed black;
+  border-bottom:  1px dotted black;
+  border-top: 1px dotted black;
+}
+
+.druktekst {
+  border-right: 1px dashed black;
+  border-bottom:  1px dotted black;
+  border-top: 1px dotted black;
 }
