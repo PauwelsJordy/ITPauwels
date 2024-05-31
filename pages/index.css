@@ -19,6 +19,10 @@ body {
   background-color: lightblue;
 }
 
+.welkom {
+  text-align:"center";
+}
+
 h1 {
   font-size: 30px;
   text-align: center;
